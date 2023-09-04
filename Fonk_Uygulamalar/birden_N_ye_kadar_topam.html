@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ntoplam(x)
+        {
+            var toplam = 0;
+            for(var i=1; i<=x; i++)
+                toplam=toplam+i;
+            return toplam; 
+        }
+        
+        var n = Number(prompt("n : "))
+
+        document.write("n = "+n+". 1-n toplamı = "+ntoplam(n))
+    </script>
+</body>
+</html>

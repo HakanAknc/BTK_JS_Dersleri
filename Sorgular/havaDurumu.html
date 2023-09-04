@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sicaklik;
+        sicaklik = Number(prompt("Hava sıcaklığını girin: "))
+
+        if(sicaklik < 0)   // birden fazla şey giriceksem {} açıyorum
+        {
+            document.write("Dondurucu")
+            document.write("<br>")
+            document.write("La gardaş çok donuyok")
+        }
+        else if(sicaklik < 15)
+        {
+            document.write("Soğuk")
+            document.write("<br>")
+            document.write("La gardaş üşüyok")
+        }
+        else if(sicaklik < 25)
+        {
+            document.write("Ilık")
+            document.write("<br>")
+            document.write("La gardaş çok iyi ne soğuk ne sıcak")
+        }
+        else
+        {
+            document.write("Sıcak")
+            document.write("<br>")
+            document.write("La gardaş yanıyok")
+        }
+    </script>
+</body>
+</html>

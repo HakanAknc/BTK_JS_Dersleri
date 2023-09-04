@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Ekrandan alınan n adet sayının ortalaması
+
+        // değişkenleri tanımlayalım
+        var n, sayi, sayac, toplam=0, ortalama=0;
+
+        // kullanıcıdan n değeri alma
+        n = Number(prompt("n: ")) 
+
+        // döngüyle n adet sayıyının toplamı ve ortalamsı
+        for(s=1; s<=n; s++)
+        {
+            sayi=Number(prompt("Sayı: "));
+            toplam=toplam+sayi;
+        }
+        // ortalama hesaplam ve yazdırma
+        ortalama = toplam/n;
+        document.write("Ortalama = " +ortalama)
+    </script>
+</body>
+</html>

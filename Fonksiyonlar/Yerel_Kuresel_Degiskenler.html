@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=1, b=2       // -- burda tanımlarsak küresel olur diğer fonksiyonlarda da kullanılabilir. 
+        function topla()
+        {
+            // var a=1, b=2   -- burda tanımlarsak yerel olur aşağdaki carp fonksiyonu çalışmaz.
+            toplam=0;
+            toplam = a+b;
+            document.write("Toplam = "+toplam+"<br>")
+        }
+        topla()
+
+        function carp()
+        {
+            var carpma=0; 
+            carpma = a*b;
+            document.write("Çarpım = "+carpma)
+        }
+        carp();
+    </script>
+</body>
+</html>

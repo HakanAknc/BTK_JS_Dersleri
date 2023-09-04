@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        var x=5;
+        document.write("Veritipi: "+typeof(x)+"<br>");
+
+        x = "ali";
+        document.write("Veritipi: "+typeof(x)+"<br>");
+
+        x = true;
+        document.write("Veritipi: "+typeof(x)+"<br>");
+        */
+
+        
+        //ekrandan alınan iki sayının toplamı
+        //ilk sayıyı al
+        var s1 = prompt("1.sayiyi girin: ");
+        s1 = Number(s1);  // böyle yapmazsak giridğimiz değeri string olarak alır
+
+        // ikinici sayıyı al
+        var s2 = prompt("2.sayiyi girin: ");
+        s2 = Number(s2);
+
+        // sayıların toplamı
+        var toplam = s1 + s2;
+
+        // toplamı ekrana yazdırma
+        alert("Toplam = " + toplam);
+        document.write("Toplam = "+toplam)
+
+        document.write("<br>");
+
+        // js koduna html uyguladık  
+        document.write("<i>ilk satır...</i>"+"<br>");
+        //document.write("<br>");
+        document.write("<b>ikinci satır...</b>");
+
+    </script>
+</body>
+</html>

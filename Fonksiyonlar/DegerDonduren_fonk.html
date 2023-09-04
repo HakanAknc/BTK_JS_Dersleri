@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Değer döndüren parametresiz fonksiyonlar
+        function kare(x)
+        {
+            return x*x;
+        }
+        document.write(kare(5))
+        document.write("<br>")
+        document.write(kare(7))
+
+        document.write("<br>")
+
+
+
+        // Tek parametreli değer döndüren fonksiyonlar
+        function kupal(x)
+        {
+            return x*x*x;
+        }
+        var s = Number(prompt("Sayı: "));
+        document.write("<br>")
+        document.write(kupal(s))
+
+        document.write("<br>")
+
+        // Çok parametreli değer döndüren fonksiyonlar
+        function topla(a,b)
+        {
+            var toplam = a+b;
+            return toplam;
+            //return a+b de yazabilirdik
+        }
+        document.write("<br>")
+        document.write(topla(2,5))
+    </script>
+</body>
+</html>

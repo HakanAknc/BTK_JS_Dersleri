@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Değer döndürmeyen parametresiz fonksiyonlar
+        function merhaba()
+        {
+            document.write("Merhaba <br>");
+        }
+        merhaba();
+        merhaba();
+        merhaba();
+        merhaba();
+        document.write("<br>")
+
+
+         // Değer döndürmeyen tek parametreli fonksiyonlar
+        function hello(ad)
+        {
+            document.write("merhaba "+ad+" nasılsın? <br>")
+        }
+        hello("Hakan")
+        hello("Caner")
+        hello("Ali")
+        // hello()   -- yanlış kullanım
+        // hello(ali)   -- yanlış kullanım
+        document.write("<br>")
+
+         // Değer döndürmeyen çok parametreli fonksiyonlar
+        function topla(s1,s2)
+        {
+            var topla = s1 + s1;
+            document.write("Toplam = "+topla+"<br>");
+        }
+        topla(3,5) 
+        topla(8,9)
+    </script>
+</body>
+</html>
